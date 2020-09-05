@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "verygooditems",
+    "name": "Verygooditems",
+    "description": "",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "TheCinfiniteTeam"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
