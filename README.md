@@ -1,5 +1,5 @@
 # VeryGoodItems 1.12.2模组
-[README_EN_US](https://github.com/TheCinfiniteTeam/VeryGoodItems/README_EN_US.md)
+[README_EN_US](https://github.com/TheCinfiniteTeam/VeryGoodItems/blob/master/README_EN_US.md)
 - ### ❗ 开源协议许可证 🚫
 ![](https://img.shields.io/badge/LICENSE-GPLv3-green)
 ![](https://img.shields.io/badge/LICENSE-GNU%20General%20Public%20License%20v3-green)
