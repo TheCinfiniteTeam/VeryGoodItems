@@ -8,10 +8,11 @@
     "url": "",
     "updateUrl": "",
     "authorList": [
-      "TheCinfiniteTeam"
+      "TheCinfiniteTeam",
+      "chenjj100419"
     ],
     "credits": "",
-    "logoFile": "reposiory.png",
+    "logoFile": "repository.png",
     "screenshots": [],
     "dependencies": []
   }
