@@ -13,7 +13,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 @Mod(
         modid = Verygooditems.MOD_ID,
         name = Verygooditems.MOD_NAME,
-        version = Verygooditems.VERSION
+        version = Verygooditems.VERSION,
+        useMetadata = true,
+        acceptedMinecraftVersions = "1.12.2"
 )
 public class Verygooditems {
 
