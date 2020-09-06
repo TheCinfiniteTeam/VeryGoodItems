@@ -1,5 +1,7 @@
 package io.github.chenjj100419.verygooditems.verygooditems;
 
+import io.github.chenjj100419.verygooditems.verygooditems.items.ItemHandler;
+import io.github.chenjj100419.verygooditems.verygooditems.items.RegistryHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -37,7 +39,8 @@ public class Verygooditems {
      */
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event) {
-
+        new ItemHandler();
+        new RegistryHandler();
     }
 
     /**
