@@ -12,6 +12,8 @@ import net.minecraftforge.oredict.OreDictionary;
 public class RegistryHandler {
     @SubscribeEvent
     public static void onItemRegister(RegistryEvent.Register<Item> event){
+        event.getRegistry().registerAll(ItemHandler.items.toArray(new Item[0]));
+        //event.getRegistry().registerAll(ItemHandler.items.toArray(new Item[1]));
     }
     @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event){

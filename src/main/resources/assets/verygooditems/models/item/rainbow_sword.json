@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "verygooditems:item/rainbow_sword_lang"
+	}
+}
