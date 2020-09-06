@@ -1,7 +1,9 @@
 package io.github.chenjj100419.verygooditems.verygooditems;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -103,6 +105,7 @@ public class Verygooditems {
             */
         }
     }
+
     /* EXAMPLE ITEM AND BLOCK - you probably want these in separate files
     public static class MySpecialItem extends Item {
 
@@ -112,4 +115,8 @@ public class Verygooditems {
 
     }
     */
+    public void registerItemRenderer(Item item, int meta, String id) {
+        ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), id));
+
+    }
 }
