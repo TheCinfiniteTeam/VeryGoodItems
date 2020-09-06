@@ -23,7 +23,7 @@ public class rainbowSword extends ItemTool {
         this.setMaxStackSize(1);
         this.setMaxDamage(4096);
         this.setTranslationKey(Verygooditems.MOD_ID+"."+name);
-        ItemHandler.items.add(this);
+        //ItemHandler.items.add(this);
     }
     public void registerModel(){
         this.registerItemRenderer(this, 0, "rainbow_sword");
