@@ -1,6 +1,47 @@
 {
-	"parent": "minecraft:item/handheld",
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
 	"textures": {
 		"layer0": "verygooditems:item/rainbow_sword_lang"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [-1, 41, -5.75],
+			"scale": [4, 4, 4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [1.5, 40, -5.75],
+			"scale": [4, 4, 4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [10.38, 20.45, -3.12],
+			"scale": [4, 4, 4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [14.13, 20.45, -3.12],
+			"scale": [4, 4, 4]
+		},
+		"ground": {
+			"translation": [27.75, 26, 0],
+			"scale": [4, 4, 4]
+		},
+		"gui": {
+			"translation": [24, 24, 0],
+			"scale": [4, 4, 4]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [-26.75, 29.75, -0.25],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"translation": [22, 22.25, 0],
+			"scale": [4, 4, 4]
+		}
 	}
 }

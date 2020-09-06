@@ -16,16 +16,17 @@ import net.minecraftforge.client.model.ModelLoader;
 public class bucketGoldapple extends ItemFood implements ItemHandler.IHasModel {
     private final String name = "bucket_goldapple";
     public bucketGoldapple(){
-        super(10, 5, false);
+        super(18, 18, false);
         this.setAlwaysEdible();
         this.setRegistryName(name);
         this.setTranslationKey(Verygooditems.MOD_ID+"."+name);
-        this.setMaxStackSize(4);
+        this.setMaxStackSize(2048);
         ItemHandler.items.add(this);
     }
     @Override
     protected void onFoodEaten(ItemStack stack, World world, EntityPlayer player) {
         player.addItemStackToInventory(new ItemStack(Items.BUCKET));
+        /*
         double posX = player.posX;
         double posY = player.posY;
         double posZ = player.posZ;
@@ -41,6 +42,7 @@ public class bucketGoldapple extends ItemFood implements ItemHandler.IHasModel {
         player.addPotionEffect(potionEffect10);
         player.addPotionEffect(potionEffect11);
         player.addPotionEffect(potionEffect12);
+        */
     }
     public void registerModel(){
         this.registerItemRenderer(this, 0, "inventory");

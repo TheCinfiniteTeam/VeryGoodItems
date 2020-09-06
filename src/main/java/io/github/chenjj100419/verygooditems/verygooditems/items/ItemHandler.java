@@ -15,7 +15,7 @@ public class ItemHandler {
     public static final List<Item> items = new ArrayList<Item>();
     public static final Item rainbowIngot = new rainbowIngot();
     public static final Item bucketGoldapple = new bucketGoldapple();
-    //public static final ItemSword rainbowSword = new rainbowSword();
+    public static final Item rainbowSword = new rainbowSword();
     public interface IHasModel {
         public void registerModel();
 

@@ -15,18 +15,18 @@ import net.minecraftforge.client.model.ModelLoader;
 import javax.annotation.Nullable;
 import java.util.Set;
 
-public class rainbowSword extends ItemTool {
+public class rainbowSword extends ItemSword implements ItemHandler.IHasModel {
     private final String name = "rainbow_sword";
-    public rainbowSword(Set<Block> effectiveBlockskln){
-        super(ToolMaterial.DIAMOND,effectiveBlockskln);
+    public rainbowSword(){
+        super(ToolMaterial.DIAMOND);
         this.setRegistryName(name);
         this.setMaxStackSize(1);
         this.setMaxDamage(4096);
         this.setTranslationKey(Verygooditems.MOD_ID+"."+name);
-        //ItemHandler.items.add(this);
+        ItemHandler.items.add(this);
     }
     public void registerModel(){
-        this.registerItemRenderer(this, 0, "rainbow_sword");
+        this.registerItemRenderer(this, 0, "inventory");
     }
     public void registerItemRenderer(Item item, int meta, String id){
         ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), id));
